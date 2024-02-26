@@ -18,9 +18,13 @@ a {
     text-decoration: none;
 }
 
+header {
+    width: 85%;
+    margin: 1rem auto;
+}
+
 nav {
     width: 100%;
-    padding: 28px 128px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +34,11 @@ nav {
     font-size: 24px;
     color: black;
     font-weight: 500;
+}
+
+.logo::after {
+    content: ".";
+    color: #F58634;
 }
 
 .nav-list {
@@ -51,10 +60,10 @@ nav {
 
 .btn-login {
     color: #fff;
-    background-color: #F58634;
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 134px;
-    height: 62px;
+    padding: .9rem 2.5rem;
+    background-color: #F58634;
 }
